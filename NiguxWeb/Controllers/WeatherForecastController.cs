@@ -30,7 +30,7 @@ namespace NiguxWeb.Controllers
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
-                TemperatureC = 2,
+                TemperatureC = 3,
                 Summary = Summaries[rng.Next(Summaries.Length)]
             })
             .ToArray();
