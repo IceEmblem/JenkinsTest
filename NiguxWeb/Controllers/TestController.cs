@@ -13,7 +13,7 @@ namespace NiguxWeb.Controllers
     {
         [HttpGet]
         public int Get() {
-            return 2;
+            return 3;
         }
     }
 }
