@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NiguxWeb.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/mircservice/[controller]")]
     [ApiController]
     public class TestController : ControllerBase
     {
