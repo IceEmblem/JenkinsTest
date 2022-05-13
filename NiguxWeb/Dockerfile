@@ -6,7 +6,7 @@ EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
-COPY ["NiguxWeb/NiguxWeb.csproj", "NiguxWeb/"]
+COPY ["NiguxWeb.csproj", "NiguxWeb/"]
 RUN dotnet restore "NiguxWeb/NiguxWeb.csproj"
 COPY . .
 WORKDIR "/src/NiguxWeb"
